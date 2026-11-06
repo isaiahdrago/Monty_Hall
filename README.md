@@ -32,4 +32,4 @@ Additionally, I did not want to make a calculator app as that seemed to generic.
 
 ***
 
-*Note:* I may improve the UI in the future this was mostly made for fun in a couple hours and I did not even think about the UI while doing it.
+**Note:** I may improve the UI in the future this was mostly made for fun in a couple hours and I did not even think about the UI while doing it.
