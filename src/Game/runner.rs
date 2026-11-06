@@ -46,15 +46,12 @@ impl Runner {
             }
 
             if self.puzzle.end_game() {
-                println!("Iteration {}: Win!", self.current_iteration + 1);
                 self.wins += 1;
                 if self.did_switch {
                     self.switch_wins += 1;
                 } else {
                     self.stay_wins += 1;
                 }
-            } else {
-                println!("Iteration {}: Lose!", self.current_iteration + 1);
             }
 
             self.current_iteration += 1;

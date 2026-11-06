@@ -21,13 +21,15 @@ impl Puzzle {
         }
     }
 
-    pub fn end_game(&mut self) -> bool{
+    pub fn end_game(&mut self) -> bool {
         self.choice == Some(self.behind)
     }
 
     pub fn switch_choice(&mut self) {
         if let Some(choice) = self.choice {
-            let remaining_doors: Vec<usize> = self.not_revealed.iter()
+            let remaining_doors: Vec<usize> = self
+                .not_revealed
+                .iter()
                 .filter(|&&door| door != choice)
                 .cloned()
                 .collect();
