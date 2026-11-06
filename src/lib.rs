@@ -19,7 +19,6 @@ pub struct DoorPuzzleApp {
 }
 
 #[cfg(target_arch = "wasm32")]
-#[wasm_bindgen::prelude::wasm_bindgen(start)]
 pub async fn start() -> Result<(), wasm_bindgen::JsValue> {
     use wasm_bindgen::JsCast;
 
