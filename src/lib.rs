@@ -18,30 +18,6 @@ pub struct DoorPuzzleApp {
     switch_times_input: usize,
 }
 
-#[cfg(target_arch = "wasm32")]
-pub async fn start() -> Result<(), wasm_bindgen::JsValue> {
-    use wasm_bindgen::JsCast;
-
-    let window =
-        web_sys::window().ok_or_else(|| wasm_bindgen::JsValue::from_str("No browser window"))?;
-    let document = window
-        .document()
-        .ok_or_else(|| wasm_bindgen::JsValue::from_str("No browser document"))?;
-    let canvas = document
-        .get_element_by_id("the_canvas_id")
-        .ok_or_else(|| wasm_bindgen::JsValue::from_str("Canvas not found"))?
-        .dyn_into::<web_sys::HtmlCanvasElement>()
-        .map_err(|_| wasm_bindgen::JsValue::from_str("Element is not a canvas"))?;
-
-    eframe::WebRunner::new()
-        .start(
-            canvas,
-            eframe::WebOptions::default(),
-            Box::new(|_cc| Ok(Box::new(DoorPuzzleApp::default()))),
-        )
-        .await
-}
-
 impl Default for DoorPuzzleApp {
     fn default() -> Self {
         Self {
@@ -52,7 +28,7 @@ impl Default for DoorPuzzleApp {
             revealed_door: None,
             game_over: false,
             iterations_input: 1000,
-            switch_times_input: 1,
+            switch_times_input: 2,
         }
     }
 }
