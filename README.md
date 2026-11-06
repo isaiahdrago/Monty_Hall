@@ -23,7 +23,7 @@ In 1975 this problem was named after Monty Hall by statistician Steven Selvin.
 
 ## Why did I make this?
 
-> **TL;DR:** I love math and statistics and is bored in their dorm.
+> **TL;DR:** I love math and statistics and was bored in their dorm.
 
 The Monty Hall problem is one that seems to always confuse people, they can't understand how its not just a 50/50 once a door is revealed.
 This application was made because I wanted to have an application that could show the actual numbers to people.
