@@ -3,7 +3,8 @@
 > *"Actually I'm an overnight success, but it took twenty years."*
 > -Monty Hall
 
-The Monty Hall problem is a statistics problem about chances changing as known information changes. You are given three doors, one has car, while the others have goats.
+The Monty Hall problem is a statistics problem about chances changing as known information changes. You are given three doors, one has a car, 
+while the others have goats.
 You must select one, and then one of the two remaining doors is revealed to have a goat behind it. 
 Then, again you are given an option, either switch to the remaining door or stay on your current one.
 
