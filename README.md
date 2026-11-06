@@ -18,7 +18,7 @@ To let you tackle it there are two options:
 ## Does this Sound Like a Game Show?
 
 You may be wondering why this sounds like a game show, and that's because it is. Monty Hall is not a mathamatician and instead hosted a game show called 
-*Let's Make a Deal* from 1963 to 1986, which used a similar situation, with some twists to keep the show entertaining and less waited towards the contestants.
+*Let's Make a Deal* from 1963 to 1986, which used a similar situation, with some twists to keep the show entertaining and less weighted towards the contestants.
 In 1975 this problem was named after Monty Hall by statistician Steven Selvin.
 
 ## Why did I make this?
