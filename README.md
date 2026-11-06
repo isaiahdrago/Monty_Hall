@@ -29,3 +29,7 @@ The Monty Hall problem is one that seems to always confuse people, they can't un
 This application was made because I wanted to have an application that could show the actual numbers to people, and myself.
 I love to break down statistic problems and see how they work on a larger or smaller scale. Do they hold or do they break.
 Additionally, I did not want to make a calculator app as that seemed to generic.
+
+***
+
+*Note:* I may improve the UI in the future this was mostly made for fun in a couple hours and I did not even think about the UI while doing it.
