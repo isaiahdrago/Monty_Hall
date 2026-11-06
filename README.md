@@ -13,7 +13,7 @@ This app is designed to let you play the Monty Hall problem, or test the statist
 To let you tackle it there are two options:
 
 - Single: You can just play as normal and see how you do.
-- Runner: Instead of you playing 1000 times to gain some data try using a runner, which will use random number of generation to determine its selections. You can set how many times it plays and how often it switches. Statistics will be provided about its performance.
+- Runner: Instead of you playing 1000 times to gain some data try using a runner, which will use random number generation to determine its selections. You can set how many times it plays and how often it switches. Statistics will be provided about its performance.
 
 ## Does this Sound Like a Game Show?
 
