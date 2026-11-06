@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Door Puzzle</title>
+    <base href="/door-statistics/">
+    
+<script type="module">
+import init, * as bindings from '/door-statistics/door-statistics-797853498e776ae7.js';
+const wasm = await init({ module_or_path: '/door-statistics/door-statistics-9b27b114dc4c7f18_bg.wasm' });
+
+
+window.wasmBindings = bindings;
+
+
+dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
+
+</script>
+    <style>
+        html, body {
+            margin: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            background: #122348;
+        }
+
+        canvas {
+            display: block;
+            width: 100vw;
+            height: 100vh;
+        }
+    </style>
+<link rel="modulepreload" href="/door-statistics/door-statistics-797853498e776ae7.js" crossorigin="anonymous" integrity="sha384-CmtsB/xPZ2vy1z/OfH16LqhVBwq1hBJWK+GyINmhfhWBUQ7qcjH3zQWH1xoyPO2m"><link rel="preload" href="/door-statistics/door-statistics-9b27b114dc4c7f18_bg.wasm" crossorigin="anonymous" integrity="sha384-Fag9kj/cWLpHqf5qRoakCk3y/xWFwCVeHYSvXtBLMLXH555pPLnOEY/Tx7Sfr9Vf" as="fetch" type="application/wasm"></head>
+<body>
+    <canvas id="the_canvas_id"></canvas>
+</body>
+</html>
